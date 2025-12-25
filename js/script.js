@@ -32,7 +32,6 @@ for (let g = 0; g < GLOWING_COUNT; g++) {
   glowingWrapper.appendChild(glowing);
 }
 
-
 function createCubes(year) {
   const digits = String(year).split('');
 
