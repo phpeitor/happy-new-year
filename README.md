@@ -1,15 +1,19 @@
-# Animation Happy New Year
-¡Feliz Año Nuevo, devs! 🎉 Este 2025 que las horas de debug sean pocas, los commits bien explicados y los deploys sin sobresaltos en producción. 🚀
+# Happy New Year 🖥️💡
+[![forthebadge](http://forthebadge.com/images/badges/uses-css.svg)](https://www.linkedin.com/in/drphp/)
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](https://www.linkedin.com/in/drphp/)
 
-Que cada línea de código que escribas traiga soluciones, creatividad y orgullo a tu trabajo. Recuerda: los bugs son solo retos disfrazados de errores. 😉
+Para utilizar este proyecto sigue estos pasos:
 
-¡A seguir construyendo el futuro, un proyecto a la vez! 🖥️💡
+## 🚀 Quick Start
 
-- Clona este repositorio en tu máquina local utilizando el comando git clone [URL_del_repositorio].
-- Abre el archivo index.html en tu navegador web preferido.
-
+1. **Clonar este repositorio**
+```bash
+git clone https://github.com/phpeitor/happy-new-year.git
+cd happy-new-year
 ```
-    .\index.html
+2. **Ejecutar comando**
+```bash
+index.html
 ```
 [![Video](https://img.youtube.com/vi/ZF8EM4pk9QM/0.jpg)](https://www.youtube.com/watch?v=ZF8EM4pk9QM)  
 [Ver demo](https://www.youtube.com/watch?v=ZF8EM4pk9QM)
