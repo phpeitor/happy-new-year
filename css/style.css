@@ -106,7 +106,7 @@ h2.active {
 }
 
 h2:after {
-  content: ' 2025';
+  content: '';
   transition: 0.5s;
 }
 
