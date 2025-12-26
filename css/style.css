@@ -24,14 +24,20 @@ body {
   height: 100%;
   object-fit: cover; 
   z-index: -1; 
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+#background-video.playing {
+  opacity: 1;
 }
 
 .container {
   position: absolute;
-  display: flex;
+  display: grid;
   transform-style: preserve-3d;
-  gap: 10px;
-  transform: rotateY(30deg) rotateX(10deg);
+  gap: 5px;
+  transform: rotateY(-17deg) rotateX(5deg);
   z-index: 10;
 }
 
@@ -99,7 +105,7 @@ body {
 h2 {
   position: fixed;
   bottom: 50px;
-  color: #252525;
+  color: #908989;
   font-size: 2em;
   transition: 0.5s;
   cursor: pointer;
@@ -108,8 +114,8 @@ h2 {
 h2.active {
   color: #fff;
   text-shadow:
-    0 0 20px #fff,
-    0 0 50px #fff;
+    0 0 20px #c8ff7c,
+    0 0 50px #cbee74;
 }
 
 h2:after {

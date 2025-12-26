@@ -1,7 +1,7 @@
 const h2 = document.querySelector('#newYearText');
 const container = document.querySelector('.container');
 const texts = document.querySelectorAll('.text');
-
+const video = document.getElementById('background-video');
 const currentYear = new Date().getFullYear();
 const nextYear = currentYear + 1;
 
@@ -10,8 +10,17 @@ h2.innerHTML = `Happy New Year ${nextYear}`;
 createCubes(currentYear);
 
 h2.onclick = function () {
-  container.classList.toggle('newyear');
-  this.classList.toggle('active');
+  const isActive = this.classList.toggle('active');
+  container.classList.toggle('newyear', isActive);
+
+  if (isActive) {
+    video.classList.add('playing');
+    video.play().catch(() => {});
+  } else {
+    video.classList.remove('playing');
+    video.pause();
+    video.currentTime = 0;
+  }
 };
 
 const glowingWrapper = document.getElementById('glowing-wrapper');
