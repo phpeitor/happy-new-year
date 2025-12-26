@@ -26,13 +26,13 @@ body {
   z-index: -1; 
 }
 
-
 .container {
   position: absolute;
   display: flex;
   transform-style: preserve-3d;
   gap: 10px;
   transform: rotateY(30deg) rotateX(10deg);
+  z-index: 10;
 }
 
 .container.newyear .text {
@@ -41,6 +41,13 @@ body {
 
 .container.newyear .text:last-child {
   transform: rotateX(calc(-630deg * 1));
+}
+
+#glowing-wrapper {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
 }
 
 .text {
